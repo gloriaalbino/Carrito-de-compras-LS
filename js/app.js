@@ -135,6 +135,7 @@ function carritoHTML(){
     })
 }
 
+
 function sincronizarStorage(){
     localStorage.setItem('articulosCarritos',JSON.stringify(articulosCarritos));
 }
